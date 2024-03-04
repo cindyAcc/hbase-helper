@@ -1,0 +1,13 @@
+option java_package = "org.sober.demo";
+option java_outer_classname = "DemoFilterProto";
+option java_generic_services = true;
+option java_generate_equals_and_hash = true;
+option optimize_for = SPEED;
+
+message DemoFilterProto {
+  required int32 limit = 1;
+  required int32 offset = 2;
+  required int32 count = 3;
+  required string filterField = 4;
+  required string filterValue = 5;
+}

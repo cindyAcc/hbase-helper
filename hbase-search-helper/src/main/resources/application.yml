@@ -1,0 +1,5 @@
+hbase:
+  zookeeper:
+    quorum: node01,node02,node03
+    property:
+      clientPort: 2181
